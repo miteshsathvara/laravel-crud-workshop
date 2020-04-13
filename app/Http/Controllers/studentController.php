@@ -8,14 +8,6 @@ use DB;
 class studentController extends Controller
 {
 
-    // Hello Mitesh Sathvara
-    
-    //listing - student listing
-    // create - student form display
-    // store - submit
-    // edit - edit display data in edit form
-    // update - update data in database
-    //delete - record delete
     public function list(){
     	// student listing
 	    $student_data = Student::all();
